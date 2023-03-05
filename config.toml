@@ -1,0 +1,4 @@
+baseURL = 'https://mshed.co.uk/'
+languageCode = 'en-gb'
+title = 'mShed: TT120'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
