@@ -1,4 +1,27 @@
 baseURL = 'https://mshed-hub.github.io/tt120/'
 languageCode = 'en-gb'
-title = 'mShed: TT120'
+title = 'TT:120 Model Railways'
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/about/'
+  weight = -110
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
