@@ -1,4 +1,4 @@
-baseURL = 'https://mshed.co.uk/'
+baseURL = 'https://mshed-hub.github.io/tt120/'
 languageCode = 'en-gb'
 title = 'mShed: TT120'
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
